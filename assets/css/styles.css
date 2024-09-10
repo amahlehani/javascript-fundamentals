@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 80px;
+}
+
+h1 {
+    text-align: center;
+    padding: 40px;
+    cursor: default;
+}
+
+.product-list {
+    cursor: pointer;
+}
+
+
+.product-list, .cart, .result {
+    margin-bottom: 20px;
+}
+.product-item, .cart-item {
+    margin-bottom: 10px;
+}
+.cart-item {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.input-group {
+    margin-bottom: 15px;
+}
+.input-group label {
+    display: flex;
+    margin-bottom: 5px;
+}
+.input-group input {
+    margin-right: 10px;
+    height: 30px;
+}
+
+button {
+    height: 30px;
+    width: 80px;
+    font-weight: 600;
+    text-align: center;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(125, 203, 125);
+}

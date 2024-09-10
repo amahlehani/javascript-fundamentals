@@ -7,9 +7,31 @@
     <title>Shop Simulation</title>
 </head>
 <body>
+    <h1>Shop Simulation</h1>
+
+    <form id="shop-form">
+        <div class="product-list" id="product-list"></div>
+
+        <div class="input-group">
+            <label for="userBudget">Enter your budget:</label>
+            <input type="number" id="userBudget" placeholder="Enter amount" min="0">
+        </div>
+
+        <div class="input-group">
+            <label for="productSelections">Enter your selections (format: productIndex,quantity; ...):</label>
+            <input type="text" id="productSelections" placeholder="e.g., 0,3;1,2">
+        </div>
+
+        <button type="submit">Submit</button><br>
+
+        <div class="cart" id="cart"></div>
+        <div class="result" id="result"></div>
+    </form>
 
     
 
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
+
+
