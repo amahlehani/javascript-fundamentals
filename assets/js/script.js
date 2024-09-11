@@ -18,7 +18,7 @@ function parseUserSelection(input) {
   return selections.map(selection => {
     const [index, quantity] = selection.split(',').map(Number);
     if (!isNaN(index) && !isNaN(quantity)) {
-      return [index, quantity];
+      return [index - 1, quantity];
     } else {
       console.error(`Invalid selection format: ${selection}`);
       return null;
